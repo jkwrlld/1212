@@ -1,0 +1,24 @@
+.heading {
+color: limegreen;    
+}
+.heading {
+color: lightskyblue;    
+}
+.heading 
+{
+color: red;    
+}
+
+#head {
+color: coral;
+font-size: 50px;    
+}
+
+.heading3 {
+color: pink !important;
+font-size: 100px;    
+}
+p {
+    color: red !important;
+    font-size: 24px !important;
+}
