@@ -22,3 +22,48 @@ p {
     color: red !important;
     font-size: 24px !important;
 }
+
+.button {
+    width: 100px;
+    height: 20px;
+    background-color: red;
+}
+
+.button:hover:active {
+    cursor: pointer;
+
+    background-color: blue;
+    color: yellow;
+}
+
+#input {
+    background-color: fuchsia;
+}
+#input:focus {
+    outline: 5px solid green;
+    outline-style: dotted;
+}
+
+.disabled-button {
+    background-color: red;
+}
+
+button[:disabled] {
+    background-color: red
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.li {
+width: 100px;
+height: 100px;
+background-color: red;
+margin-left: 20px;
+}
+
+.li:not(:first-child) {
+    margin-left: 20px;
+}
