@@ -15,12 +15,13 @@ font-size: 50px;
 }
 
 .heading3 {
-color: pink !important;
+color: pink ;
 font-size: 100px;    
 }
 p {
-    color: red !important;
-    font-size: 24px !important;
+    color: rgb(133, 34, 169) ;
+    font-size: 24px ;
+    vertical-align: middle;
 }
 
 .button {
@@ -53,7 +54,7 @@ button[:disabled] {
 }
 
 ul {
-    display: flex;
+
     list-style: none;
 }
 
@@ -66,4 +67,28 @@ margin-left: 20px;
 
 .li:not(:first-child) {
     margin-left: 20px;
+}
+
+body {
+    font-size: 50px;
+    color: blue;
+    font-weight: 900;
+    text-align: center;
+    border: 5px solid skyblue;
+}
+
+.ul {
+    border: inherit;
+}
+
+.ulka li:nth-child(even) {
+background-color: rgb(35, 215, 26);
+}
+
+.ulka li:nth-child(odd) {
+    background-color: red;
+}
+
+.ulka li:nth-child(3n) {
+    background-color: aqua;
 }
